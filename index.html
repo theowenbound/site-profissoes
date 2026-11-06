@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beyond the Code | Engenharia de Software</title>
+<meta name="description" content="Site educativo sobre Engenharia de Software: profissão, mercado, formação em Curitiba e registros da Feira de Profissões.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#inicio">Beyond the Code</a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav aria-label="Principal"><ul id="menu">
+      <li><a href="#profissao">A profissão</a></li>
+      <li><a href="#processo">Por trás do software</a></li>
+      <li><a href="#areas">Áreas</a></li>
+      <li><a href="#mercado">Mercado</a></li>
+      <li><a href="#ingresso">Como ingressar</a></li>
+      <li><a href="#faculdades">Faculdades</a></li>
+      <li><a href="#formacao">Bacharelado ou tecnólogo</a></li>
+      <li><a href="#alem">Além do código</a></li>
+      <li><a href="#futuro">Futuro</a></li>
+      <li><a href="#feira">Feira</a></li>
+      <li><a href="#referencias">Referências</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main id="conteudo">
+<section id="inicio" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="sub">Engenharia de Software</p>
+      <h1>Beyond the Code</h1>
+      <p class="slogan">Ideias que se tornam sistemas.</p>
+      <p class="lead">Por trás de cada aplicativo, jogo, site ou sistema digital existe uma estrutura planejada para transformar ideias em soluções. A Engenharia de Software é a área responsável por projetar, desenvolver, testar e manter essas tecnologias.</p>
+      <a class="btn" href="#profissao">Explorar o conteúdo</a>
+    </div>
+    <svg class="diagram" viewBox="0 0 360 300" role="img" aria-label="Diagrama de camadas: ideia, requisitos, arquitetura, código e testes formam um sistema">
+      <g fill="none" stroke="#7f93ad" stroke-width="1">
+        <rect x="20" y="20" width="320" height="38" rx="4"/><rect x="40" y="72" width="280" height="38" rx="4"/>
+        <rect x="60" y="124" width="240" height="38" rx="4"/><rect x="80" y="176" width="200" height="38" rx="4"/>
+        <rect x="100" y="228" width="160" height="38" rx="4" stroke="#4cc9d9"/>
+        <path d="M180 58v14M180 110v14M180 162v14M180 214v14" stroke-dasharray="3 3"/>
+      </g>
+      <g fill="#e8edf3" font-size="13" font-family="Manrope,sans-serif" text-anchor="middle">
+        <text x="180" y="44">Ideia</text><text x="180" y="96">Requisitos</text><text x="180" y="148">Arquitetura</text>
+        <text x="180" y="200">Código</text><text x="180" y="252">Sistema em funcionamento</text>
+      </g>
+      <circle cx="320" cy="39" r="3" fill="#4cc9d9"/><circle cx="300" cy="91" r="3" fill="#4cc9d9"/><circle cx="280" cy="143" r="3" fill="#4cc9d9"/><circle cx="260" cy="195" r="3" fill="#4cc9d9"/><circle cx="240" cy="247" r="3" fill="#4cc9d9"/>
+    </svg>
+  </div>
+</section>
+
+<section id="profissao">
+  <div class="wrap">
+    <h2><span class="n">1</span>O que é Engenharia de Software?</h2>
+    <p class="lead">Área da tecnologia responsável por planejar, desenvolver, testar e manter programas, aplicativos, jogos, sites e sistemas digitais. O profissional combina programação, lógica, matemática, criatividade e conhecimento técnico para resolver problemas do cotidiano.</p>
+    <div class="cols">
+      <div><h3>Onde ela aparece</h3><ul class="list">
+        <li>Aplicativos como WhatsApp e Instagram</li><li>Jogos para computadores e celulares</li>
+        <li>Sistemas bancários e plataformas de pagamento</li><li>Sites e lojas virtuais</li>
+        <li>Sistemas hospitalares</li><li>Sistemas de inteligência artificial</li></ul></div>
+      <div><h3>Principais responsabilidades</h3><ul class="list">
+        <li>Levantamento de necessidades e análise de requisitos</li><li>Planejamento e arquitetura de sistemas</li>
+        <li>Programação e testes</li><li>Segurança e manutenção</li><li>Trabalho em equipe</li></ul></div>
+    </div>
+    <p class="note">Nem todo engenheiro de software faz todas essas atividades sozinho. Em uma equipe, cada pessoa assume especializações e responsabilidades diferentes.</p>
+  </div>
+</section>
+
+<section id="processo" class="alt">
+  <div class="wrap">
+    <h2><span class="n">2</span>Por trás do software: como funciona?</h2>
+    <p class="lead">Um software nasce em etapas. Selecione uma delas para ver o que acontece, quem participa, por que importa e um exemplo prático.</p>
+    <div id="ciclo" class="stepper" role="group" aria-label="Etapas do desenvolvimento"></div>
+    <div id="ciclo-painel" class="panel" aria-live="polite"></div>
+
+    <h3>Analogia: construir uma casa</h3>
+    <p>Antes de construir, é preciso um projeto, planejamento, profissionais responsáveis por cada etapa e fiscalização para garantir que tudo esteja correto. Com software acontece o mesmo: primeiro planejamos, depois desenvolvemos, testamos e fazemos manutenção.</p>
+    <div class="scroll"><table>
+      <caption class="sr">Comparação entre construção de uma casa e Engenharia de Software</caption>
+      <thead><tr><th scope="col">Construção de uma casa</th><th scope="col">Engenharia de Software</th></tr></thead>
+      <tbody>
+        <tr><td>Arquiteto</td><td>Planejamento e arquitetura</td></tr>
+        <tr><td>Projeto arquitetônico</td><td>Requisitos e documentação</td></tr>
+        <tr><td>Pedreiros</td><td>Desenvolvimento das funcionalidades</td></tr>
+        <tr><td>Instalações elétricas</td><td>Integração dos componentes</td></tr>
+        <tr><td>Fiscalização</td><td>Testes e validação</td></tr>
+        <tr><td>Reformas e reparos</td><td>Manutenção e atualizações</td></tr>
+      </tbody></table></div>
+  </div>
+</section>
+
+<section id="areas">
+  <div class="wrap">
+    <h2><span class="n">3</span>Áreas de atuação: onde posso trabalhar?</h2>
+    <p class="lead">Quase todo setor depende de software. O trabalho pode ser remoto, presencial ou híbrido, conforme a empresa e a vaga.</p>
+    <div class="cols">
+      <div><h3>Setores</h3><ul class="list tight">
+        <li>Empresas de tecnologia</li><li>Bancos e instituições financeiras</li><li>Desenvolvimento de jogos</li>
+        <li>Hospitais e instituições de saúde</li><li>Comércio eletrônico</li><li>Segurança digital</li>
+        <li>Inteligência artificial</li><li>Telecomunicações</li><li>Consultoria tecnológica</li><li>Trabalho autônomo</li></ul></div>
+      <div><h3>Especializações são funções diferentes</h3><dl class="defs">
+        <dt>Front-end</dt><dd>A interface que a pessoa vê e usa.</dd>
+        <dt>Back-end</dt><dd>As regras, o processamento e os dados que ficam no servidor.</dd>
+        <dt>Full-stack</dt><dd>Atua nas duas camadas, front-end e back-end.</dd>
+        <dt>Engenharia de dados</dt><dd>Coleta, organiza e entrega dados para uso por sistemas e análises.</dd>
+        <dt>Inteligência artificial</dt><dd>Constrói sistemas que aprendem padrões a partir de dados.</dd>
+        <dt>Segurança da informação</dt><dd>Protege sistemas e dados contra ataques e vazamentos.</dd>
+        <dt>Desenvolvimento de jogos</dt><dd>Mecânicas, gráficos, física e desempenho em tempo real.</dd>
+        <dt>Arquitetura de software</dt><dd>Decisões de estrutura que sustentam o sistema inteiro.</dd>
+        <dt>Computação em nuvem</dt><dd>Infraestrutura e serviços executados em servidores remotos.</dd>
+        <dt>Qualidade e testes</dt><dd>Verifica o funcionamento e previne falhas.</dd></dl></div>
+    </div>
+  </div>
+</section>
+
+<section id="mercado" class="alt">
+  <div class="wrap">
+    <h2><span class="n">4</span>Mercado de trabalho: quanto ganha?</h2>
+    <p class="warn" role="note"><strong>Valores em verificação.</strong> As faixas abaixo são referências preliminares do documento de planejamento, sem fonte, data ou metodologia confirmadas. Serão substituídas por dados com fonte antes da publicação.</p>
+    <div id="carreira" class="stepper" role="group" aria-label="Níveis profissionais"></div>
+    <div id="carreira-painel" class="panel" aria-live="polite"></div>
+    <h3>O que influencia a remuneração</h3>
+    <p>Experiência, especialização, região, empresa, complexidade dos projetos, idiomas e modalidade de contratação. A evolução de nível não é automática nem garantida: depende de aprendizado, resultados e oportunidades.</p>
+  </div>
+</section>
+
+<section id="ingresso">
+  <div class="wrap">
+    <h2><span class="n">5</span>Como ingressar: caminhos profissionais</h2>
+    <div class="cols">
+      <div><h3>O caminho mais comum</h3><ol class="steps">
+        <li>Concluir o Ensino Médio</li><li>Realizar o ENEM ou vestibular</li><li>Ingressar em uma instituição de ensino superior</li>
+        <li>Aprender programação e desenvolver projetos</li><li>Buscar estágios</li><li>Adquirir experiência</li>
+        <li>Ingressar no mercado de trabalho</li><li>Continuar estudando e se especializando</li></ol></div>
+      <div><h3>Formas de entrada no ensino superior</h3>
+        <p>ENEM, SISU, ProUni, FIES, vestibulares próprios e processos seletivos das instituições. Regras, prazos e vagas variam e devem ser consultados nos canais oficiais.</p>
+        <h3>E estudar por conta própria?</h3>
+        <p>Estudar programação sozinho e criar projetos pessoais é possível e valioso, mas não substitui automaticamente a formação exigida por algumas oportunidades.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faculdades" class="alt">
+  <div class="wrap">
+    <h2><span class="n">6</span>Faculdades em Curitiba</h2>
+    <p class="warn" role="note"><strong>Dados em verificação.</strong> Os nomes vêm da pesquisa inicial. Oferta atual, grau, modalidade, campus, duração, mensalidade e links oficiais ainda serão confirmados no e-MEC e nos sites das instituições. Campos pendentes aparecem como "A verificar".</p>
+    <form id="filtros" class="filters" aria-label="Filtros de instituições">
+      <label>Categoria<select name="cat"><option value="">Todas</option><option value="A">Engenharia de Software</option><option value="B">Cursos relacionados</option></select></label>
+      <label>Rede<select name="rede"><option value="">Todas</option><option>Pública</option><option>Privada</option></select></label>
+      <label>Grau<select name="grau"><option value="">Todos</option><option>Bacharelado</option><option>Tecnólogo</option></select></label>
+      <label>Modalidade<select name="modalidade"><option value="">Todas</option><option>Presencial</option><option>EAD</option><option>Híbrido</option></select></label>
+    </form>
+    <p id="filtros-aviso" class="note"></p>
+    <div id="lista" class="grid" aria-live="polite"></div>
+    <h3>Comparador</h3>
+    <p>Marque até 3 instituições nos cartões para compará-las lado a lado.</p>
+    <div id="comparador" class="scroll"></div>
+  </div>
+</section>
+
+<section id="formacao">
+  <div class="wrap">
+    <h2><span class="n">7</span>Bacharelado ou tecnólogo?</h2>
+    <p class="lead">Ambos são cursos superiores, com características diferentes. Tecnólogo não é curso técnico de Ensino Médio.</p>
+    <div class="cols">
+      <div><h3>Bacharelado</h3><ul class="list"><li>Abordagem ampla</li><li>Geralmente duração maior</li><li>Aprofunda fundamentos teóricos e diferentes áreas da profissão</li><li>Exemplos: Engenharia de Software, Ciência da Computação, Sistemas de Informação</li></ul></div>
+      <div><h3>Tecnólogo</h3><ul class="list"><li>Foco mais direcionado à aplicação profissional</li><li>Geralmente duração menor</li><li>Concentra-se em competências tecnológicas específicas</li><li>Exemplo: Análise e Desenvolvimento de Sistemas</li></ul></div>
+    </div>
+    <p class="note">Nenhum formato é melhor que o outro em todos os casos. A escolha depende de objetivos, tempo e perfil.</p>
+  </div>
+</section>
+
+<section id="alem" class="alt">
+  <div class="wrap">
+    <h2><span class="n">8</span>Engenharia além do código</h2>
+    <p class="lead">Cada referência abaixo ensina um conceito técnico real. Abra um item: primeiro vem o conceito, depois a analogia.</p>
+    <div id="analogias"></div>
+  </div>
+</section>
+
+<section id="futuro">
+  <div class="wrap">
+    <h2><span class="n">9</span>O futuro da profissão</h2>
+    <p class="lead">Algumas tendências já influenciam o trabalho de quem desenvolve software.</p>
+    <dl class="defs wide">
+      <dt>Inteligência artificial</dt><dd>Passa a ser ferramenta de apoio ao desenvolvimento e também parte dos produtos. Transforma tarefas do profissional, sem que se possa afirmar que substituirá todos os engenheiros de software.</dd>
+      <dt>Automação</dt><dd>Testes, integração e publicação automatizados reduzem tarefas repetitivas.</dd>
+      <dt>Computação em nuvem</dt><dd>Sistemas rodam em infraestrutura remota e escalável.</dd>
+      <dt>Segurança digital</dt><dd>Proteção de dados e sistemas é requisito desde o projeto.</dd>
+      <dt>Internet das Coisas</dt><dd>Objetos conectados exigem software que se comunica com o mundo físico.</dd>
+      <dt>Engenharia de dados</dt><dd>Sistemas inteligentes dependem de dados bem organizados.</dd>
+    </dl>
+    <p class="note">Dados de empregabilidade e projeções com fonte ainda serão adicionados na pesquisa.</p>
+  </div>
+</section>
+
+<section id="feira" class="alt">
+  <div class="wrap">
+    <h2><span class="n">10</span>Nossa experiência na Feira de Profissões</h2>
+    <p class="warn" role="note"><strong>Registros ainda não adicionados.</strong> Esta seção documenta a participação real no evento. Os espaços abaixo serão preenchidos somente com fotos, vídeos e relatos próprios.</p>
+    <h3>A. Apresentação do stand</h3>
+    <p class="pending">Texto sobre a proposta, a organização e o que foi apresentado, a escrever.</p>
+    <h3>B. Galeria de fotografias</h3>
+    <div id="galeria" class="gallery"></div>
+    <h3>C. Registros em vídeo</h3>
+    <div id="videos" class="gallery"></div>
+    <h3>D. Materiais apresentados</h3>
+    <ul class="slots"><li>Cartazes</li><li>Maquetes</li><li>Protótipos</li><li>Computadores</li><li>Demonstrações digitais</li><li>Materiais educativos</li></ul>
+    <h3>E. Relato da experiência</h3>
+    <p class="pending">A ser escrito após o evento: como foi apresentar, o que despertou interesse, dificuldades, aprendizados e importância da experiência.</p>
+    <p class="note">Imagens de outras pessoas só serão publicadas com autorização.</p>
+  </div>
+</section>
+
+<section id="referencias">
+  <div class="wrap">
+    <h2><span class="n">11</span>Referências e créditos</h2>
+    <p class="lead">Fontes previstas para a pesquisa, em ordem de prioridade. Cada dado estatístico deve informar fonte e período de referência.</p>
+    <div class="cols">
+      <div><h3>Formação e ingresso</h3><ul class="list"><li>MEC e e-MEC</li><li>INEP</li><li>Sites oficiais das universidades</li><li>Portal do ENEM, SISU, ProUni e FIES</li></ul></div>
+      <div><h3>Mercado e história</h3><ul class="list"><li>Pesquisas salariais com metodologia identificada</li><li>Fontes confiáveis sobre mercado de trabalho</li><li>Publicações técnicas e históricas sobre Engenharia de Software</li></ul></div>
+    </div>
+    <p class="note">Links e citações completas serão adicionados à medida que cada fonte for consultada e verificada.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Projeto desenvolvido por Arthur Costa Marcondes.</strong></p>
+    <p>Turma: <span class="pending">a preencher</span> · Disciplina: <span class="pending">a preencher</span> · Instituição: <span class="pending">a preencher</span> · 2026</p>
+    <p class="muted">Beyond the Code. Não se trata apenas de escrever código. Trata-se de construir aquilo que ainda não existe.</p>
+  </div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
